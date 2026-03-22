@@ -101,7 +101,7 @@ const Home = () => {
         </div>
 
         {/* Right Main Content */}
-        <div style={{ flex: '1', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+        <div className="hero-content-main">
           
           <div className="hero-btns-container">
             <a href="/resume.pdf" target="_blank" className="schedule-btn resume-btn">
@@ -109,9 +109,9 @@ const Home = () => {
             </a>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '2rem' }}>
-            <p style={{ fontSize: '1.4rem', color: '#ffffff', marginBottom: '-10px', fontWeight: 600 }}>Hey, I am</p>
-            <div style={{ minHeight: '120px', display: 'flex', alignItems: 'center', width: '100%' }}>
+          <div className="intro-text-block">
+            <p className="hey-iam-text">Hey, I am</p>
+            <div className="typewriter-container">
             <TypeAnimation
               sequence={[
                 'M Ahmad Hasham',
