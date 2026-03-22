@@ -116,9 +116,10 @@ const Navigation = () => {
               >
                 <p style={{ fontSize: '0.8rem', color: '#94a3b8', marginBottom: '1rem' }}>Profiles</p>
                 <div style={{ display: 'flex', gap: '15px' }}>
-                  <a href="#" className="social-icon-btn"><i className="devicon-github-original"></i></a>
-                  <a href="#" className="social-icon-btn"><i className="devicon-linkedin-plain"></i></a>
-                  <a href="mailto:abc@xyz.com" className="social-icon-btn"><Mail size={18} /></a>
+                  <a href="https://github.com/hasham14fw" target="_blank" rel="noopener noreferrer" className="social-icon-btn"><i className="devicon-github-original"></i></a>
+                  <a href="https://www.linkedin.com/in/muhammad-ahmad-hasham-ba25a6352" target="_blank" rel="noopener noreferrer" className="social-icon-btn"><i className="devicon-linkedin-plain"></i></a>
+                  <a href="https://x.com/hasham14fw" target="_blank" rel="noopener noreferrer" className="social-icon-btn"><i className="devicon-twitter-original"></i></a>
+                  <a href="mailto:hasham14fw@gmail.com" className="social-icon-btn"><Mail size={18} /></a>
                 </div>
               </motion.div>
             </motion.div>

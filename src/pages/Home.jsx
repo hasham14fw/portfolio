@@ -134,10 +134,10 @@ const Home = () => {
           </h2>
 
           <div className="social-pills">
-            <a href="#" className="social-pill"><i className="devicon-github-original"></i> GitHub</a>
-            <a href="#" className="social-pill"><i className="devicon-linkedin-plain"></i> LinkedIn</a>
-            <a href="#" className="social-pill"><i className="devicon-twitter-original"></i> X</a>
-            <a href="mailto:abc@xyz.com" className="social-pill"><Mail size={16} /> Email</a>
+            <a href="https://github.com/hasham14fw" target="_blank" rel="noopener noreferrer" className="social-pill"><i className="devicon-github-original"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/muhammad-ahmad-hasham-ba25a6352" target="_blank" rel="noopener noreferrer" className="social-pill"><i className="devicon-linkedin-plain"></i> LinkedIn</a>
+            <a href="https://x.com/hasham14fw" target="_blank" rel="noopener noreferrer" className="social-pill"><i className="devicon-twitter-original"></i> X</a>
+            <a href="mailto:hasham14fw@gmail.com" className="social-pill"><Mail size={16} /> Email</a>
           </div>
 
           <p style={{ marginTop: '2rem', fontSize: '1.15rem', color: '#cbd5e1', lineHeight: '1.8', maxWidth: '800px' }}>
