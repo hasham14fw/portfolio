@@ -1,12 +1,52 @@
-# Ahmad Hasham - Full Stack Web Engineer Portfolio
+# Portfolio Website
 
-A professional digital showcase built with React and Vite. This portfolio emphasizes high-performance user experiences through custom modern CSS and advanced animations.
+A modern, highly interactive, and visually stunning portfolio website built with React, Vite, and Framer Motion. This project showcases proficiency in web development, AI/ML integration, and software engineering.
 
-# Key Features:
+## Key Features
+*   Static Branding: Refined header with static "Hey, I am" intro and dynamic typewriter titles.
+*   Responsive Side Menu: A high-end mobile sidebar with staggered animations and social profiles.
+*   Professional Expertise: Categorized skill blocks for Frontend, Backend, AI, and Deployment tools.
+*   Development Showcase: Interactive project cards with seamless navigation and live demo handling.
+*   Location & Time: Integrated Islamabad, Pakistan location and real-time clock.
 
-Responsive Side Menu: A high-end mobile sidebar with staggered animations and social profiles.
-Professional Expertise: Categorized skill blocks for Frontend, Backend, AI, and Deployment tools.
-Development Showcase: Interactive project cards with seamless navigation and live demo handling.
-Location & Time: Integrated Islamabad, Pakistan location and real-time clock.
-Technical Stack: React, Vite, Framer Motion, Lucide Icons, Custom CSS.
+## Technical Stack
+*   React, Vite, Framer Motion, Lucide Icons, Custom Modern CSS.
 
+---
+
+## Featured Project: AIPS Portal (Desktop Application)
+The AIPS Portal is a high-performance desktop management system designed for educational institutions.
+
+### Technologies Used
+*   Framework: .NET 9.0 (C# Windows Forms) – Professional desktop application framework.
+*   Database: MongoDB Atlas – NoSQL cloud database for flexible data storage.
+*   Communication: Twilio API – Integrated for automated WhatsApp notifications.
+*   Document Generation: iTextSharp – Programmatic PDF result card generation.
+*   Security: BCrypt.Net-Next – Salted password hashing for secure credentials.
+*   Graphics & UI: GDI+ (System.Drawing) – Custom graphics for "Academic Result Cards".
+
+### Core Functions & Modules
+1. Central Dashboard: Navigation hub with WhatsApp broadcasting and live news feed.
+2. Academic Result Engine: Marks management with smart analytics (Percentage, Grade, Position) and professional PDF/PNG export.
+3. Student & Staff Management: Comprehensive CRUD system and secure faculty portal.
+4. School Operations: Digitized admissions, daily attendance tracker, and dynamic class configuration.
+
+### Implementation Details
+*   Config Separation: Sensitive API keys and Connection Strings are protected.
+*   Error Handling: Robust try-catch blocks for reliability.
+*   Asynchronous Processing: Uses async/await for a responsive UI.
+
+> [!IMPORTANT]
+> This is a Desktop Application. To explore the source or run it locally, please clone the repository from the link below. A manual is included for setup instructions.
+>
+> 🔗 Source Link: [AIPS-Management-System-Desktop-Application](https://github.com/hasham14fw/AIPS-Management-System-Desktop-Application)
+
+---
+
+## Getting Started with this Portfolio
+1. Clone the repo: git clone https://github.com/hasham14fw/Portfolio.git
+2. Install dependencies: npm install
+3. Run development server: npm run dev
+
+## Contact
+Feel free to reach out via the Contact Page or through the social links provided in the portfolio.
