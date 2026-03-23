@@ -104,7 +104,7 @@ const Home = () => {
         <div className="hero-content-main">
           
           <div className="hero-btns-container">
-            <a href="/resume.pdf" target="_blank" className="schedule-btn resume-btn">
+            <a href="/My Resume.pdf" download="M_Ahmad_Hasham_Resume.pdf" className="schedule-btn resume-btn">
               <FileText size={18} /> Resume
             </a>
           </div>
