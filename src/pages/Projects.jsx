@@ -13,7 +13,7 @@ const projects = [
     sourceLink: 'https://github.com/hasham14fw/AIPS-'
   },
   {
-    id: 3,
+    id: 2,
     title: 'AI - Fake News Verifier',
     desc: 'An AI-powered application combating misinformation via OCR and Machine Learning. It extracts text from uploaded images and cross-references claims against trusted global databases to generate an evaluated verification report.',
     img: '/news_verifier.png',
@@ -22,7 +22,16 @@ const projects = [
     sourceLink: 'https://github.com/hasham14fw/Fake-News-Verifier'
   },
   {
-    id: 2,
+    id: 3,
+    title: 'FoodLenz',
+    desc: 'A high-performance restaurant discovery and routing platform. Features Dijkstra’s algorithm for road routing, Tries for instant search suggestions, and Min-Heaps for dynamic trending logic. Built with Node.js and a high-performance C++ Crow backend.',
+    img: '/project3.png',
+    tags: ['Node.js', 'Express', 'C++', 'Leaflet.js', 'MongoDB', 'Crow Framework', 'DSA'],
+    demoLink: 'https://foodlenz.onrender.com/',
+    sourceLink: 'https://github.com/hasham14fw/Foodlenz'
+  },
+  {
+    id: 4,
     title: 'AIPS Portal (Desktop Application)',
     desc: 'A professional desktop application built with .NET 9.0 for school management. Features include automated WhatsApp notifications via Twilio, MongoDB Atlas integration, high-resolution PDF result card generation, and secure teacher credentials with BCrypt.',
     img: '/aips_portal_desktop.png',

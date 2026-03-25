@@ -13,6 +13,7 @@ const skillCategories = [
       { name: 'HTML', icon: 'devicon-html5-plain colored' },
       { name: 'CSS', icon: 'devicon-css3-plain colored' },
       { name: 'JavaScript', icon: 'devicon-javascript-plain colored' },
+      { name: 'Leaflet.js', icon: 'devicon-javascript-plain colored' },
       { name: 'GDI+', icon: 'devicon-dot-net-plain colored' },
     ]
   },
@@ -35,9 +36,21 @@ const skillCategories = [
       { name: '.NET 9.0', icon: 'devicon-dotnetcore-plain colored' },
       { name: 'iTextSharp', icon: 'devicon-visualstudio-plain colored' },
       { name: 'Twilio API', icon: 'devicon-slack-plain colored' },
+      { name: 'Crow C++', icon: 'devicon-cplusplus-plain colored' },
       { name: 'MongoDB', icon: 'devicon-mongodb-plain colored' },
       { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
       { name: 'Postman', icon: 'devicon-postman-plain colored' },
+    ]
+  },
+  {
+    title: 'Core Logic & DSA',
+    skills: [
+      { name: 'Graphs', icon: 'devicon-network-plain colored' },
+      { name: 'Trie Trees', icon: 'devicon-search-plain colored' },
+      { name: 'Heaps/BST', icon: 'devicon-appwrite-plain colored' },
+      { name: 'Optimization', icon: 'devicon-fastapi-plain colored' },
+      { name: 'Dijkstra', icon: 'devicon-googlecloud-plain colored' },
+      { name: 'Data Logic', icon: 'devicon-visualstudio-plain colored' },
     ]
   },
   {
