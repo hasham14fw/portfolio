@@ -101,7 +101,7 @@ const Home = () => {
             transition={{ duration: 1, type: 'spring', bounce: 0.4 }}
             className="profile-pic-wrapper"
           >
-            <img src="/Profile Photo.JPG" alt="M Ahmad Hasham" className="rounded-avatar" />
+            <img src="/profile_photo.jpg" alt="M Ahmad Hasham" className="rounded-avatar" />
           </motion.div>
 
           <div style={{ marginTop: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px', color: '#e2e8f0', fontWeight: '500' }}>
@@ -119,7 +119,7 @@ const Home = () => {
         <div className="hero-content-main">
           
           <div className="hero-btns-container">
-            <a href="/My Resume.pdf" target="_blank" rel="noopener noreferrer" className="schedule-btn resume-btn">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="schedule-btn resume-btn">
               <FileText size={18} /> Resume
             </a>
           </div>
