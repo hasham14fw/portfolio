@@ -32,6 +32,16 @@ const projects = [
   },
   {
     id: 4,
+    title: 'AI-Powered XAUUSD Trading Bot Suite',
+    desc: 'An institutional-grade Gold (XAUUSD) trading solution using Smart Money Concepts (SMC). Combines Machine Learning (XGBoost/RandomForest) with technical analysis like FVG and Order Blocks for automated execution on MT5.',
+    img: '/trading_bot.png',
+    tags: ['XGBoost', 'Random Forest', 'Python', 'MT5', 'SMC', 'Machine Learning'],
+    sourceLink: 'https://github.com/hasham14fw/AI-powered-Trading-Bot',
+    isDesktop: true,
+    alertMsg: 'This trading bot works directly with MetaTrader 5 and Exness. To use it, please visit the GitHub repository for the full source code and setup manual.'
+  },
+  {
+    id: 5,
     title: 'AIPS Portal (Desktop Application)',
     desc: 'A professional desktop application built with .NET 9.0 for school management. Features include automated WhatsApp notifications via Twilio, MongoDB Atlas integration, high-resolution PDF result card generation, and secure teacher credentials with BCrypt.',
     img: '/aips_portal_desktop.png',

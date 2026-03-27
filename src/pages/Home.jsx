@@ -58,6 +58,8 @@ const skillCategories = [
     skills: [
       { name: 'Machine Learning', icon: 'devicon-tensorflow-original colored' },
       { name: 'TensorFlow', icon: 'devicon-tensorflow-original colored' },
+      { name: 'XGBoost', icon: 'devicon-python-plain colored' },
+      { name: 'Random Forest', icon: 'devicon-python-plain colored' },
       { name: 'OpenCV', icon: 'devicon-opencv-plain colored' },
       { name: 'Scikit-Learn', icon: 'devicon-python-plain colored' },
       { name: 'Neural Networks', icon: 'devicon-pytorch-original colored' },
