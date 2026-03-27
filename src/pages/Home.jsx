@@ -141,9 +141,7 @@ const Home = () => {
                   repeat={Infinity}
                   className="heading-accent"
                   style={{ 
-                    display: 'inline-block',
-                    filter: 'drop-shadow(0 0 10px rgba(59, 130, 246, 0.3))',
-                    textShadow: '0 0 20px rgba(139, 92, 246, 0.2)' 
+                    display: 'inline-block' 
                   }}
                 />
               </span>
