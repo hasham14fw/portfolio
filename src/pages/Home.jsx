@@ -127,19 +127,26 @@ const Home = () => {
           <div className="intro-text-block">
             <p className="hey-iam-text">Hey, I am</p>
             <h1 className="hero-title-inspired" style={{ margin: 0, padding: 0 }}>M Ahmad Hasham</h1>
-            <div className="typewriter-container" style={{ minHeight: '60px', marginTop: '0.5rem' }}>
-              <TypeAnimation
-                sequence={[
-                  'Full Stack Web Engineer',
-                  2000,
-                  'AI & ML Innovator',
-                  2000,
-                ]}
-                wrapper="h2"
-                speed={50}
-                repeat={Infinity}
-                style={{ fontSize: '2rem', color: '#94a3b8', fontWeight: 400, display: 'inline-block' }}
-              />
+            <div className="typewriter-container" style={{ minHeight: '80px', marginTop: '0.8rem', display: 'flex', alignItems: 'center' }}>
+              <span style={{ fontSize: '2.2rem', fontWeight: 700, letterSpacing: '-0.5px' }}>
+                <TypeAnimation
+                  sequence={[
+                    'Full Stack Web Engineer',
+                    2000,
+                    'AI & ML Innovator',
+                    2000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                  className="heading-accent"
+                  style={{ 
+                    display: 'inline-block',
+                    filter: 'drop-shadow(0 0 10px rgba(59, 130, 246, 0.3))',
+                    textShadow: '0 0 20px rgba(139, 92, 246, 0.2)' 
+                  }}
+                />
+              </span>
             </div>
           </div>
 
