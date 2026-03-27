@@ -59,6 +59,16 @@ const projects = [
     sourceLink: 'https://github.com/hasham14fw/Inventory-and-Accounts-Management-C-.NET-MySQL-Winform',
     isDesktop: true,
     alertMsg: 'This is a specialized desktop application for solar businesses. To explore the source or run it locally, please clone the repository from GitHub. A detailed setup manual is included in the repo.'
+  },
+  {
+    id: 7,
+    title: 'Ludo - Human vs AI (SFML/C++)',
+    desc: 'A classic Ludo implementation in C++ using SFML. Features a complete 1v1 experience with a built-in AI opponent that evaluates moves to choose the best strategy. Smooth graphics, interactive dice, and full game logic included.',
+    img: '/ludo_sfml_game.png',
+    tags: ['C++', 'SFML', 'AI', 'Game Development', 'Algorithms'],
+    sourceLink: 'https://github.com/hasham14fw/Ludo-in-SFML-with-AI-Boot',
+    isDesktop: true,
+    alertMsg: 'This is a high-performance desktop game. To experience the 1v1 Human vs AI gameplay, please visit the GitHub repository to clone the source and follow the build manual.'
   }
 ];
 

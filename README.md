@@ -43,6 +43,27 @@ The AIPS Portal is a high-performance desktop management system designed for edu
 
 ---
 
+## Featured Project: Ludo - Human vs AI (SFML/C++)
+A classic Ludo implementation in C++ using SFML. This project features a fully playable 1v1 experience with a built-in AI opponent.
+
+### Key Features
+*   Human vs AI Mode: Play as the Red Team against a computer-controlled Blue Team.
+*   AI Decision Making: Sophisticated logic that evaluates board state to choose optimal moves.
+*   Smooth Graphics: High-quality graphical board, pawns, and interactive dice animations.
+*   Visual Feedback: Real-time pawn selection and movement animations.
+
+### Technical Stack
+*   Language: C++ (C++11 or later)
+*   Graphics Library: SFML (Simple and Fast Multimedia Library)
+*   Architecture: Modular OOP design (Game, Board, AI, Team, Pawn classes)
+
+> [!NOTE]
+> This is a high-performance desktop game. To experience the 1v1 Human vs AI gameplay, please visit the GitHub repository to clone the source and follow the build manual.
+>
+> 🔗 Source Link: [Ludo-in-SFML-with-AI-Boot](https://github.com/hasham14fw/Ludo-in-SFML-with-AI-Boot)
+
+---
+
 ## Getting Started with this Portfolio
 1. Clone the repo: git clone https://github.com/hasham14fw/Portfolio.git
 2. Install dependencies: npm install
