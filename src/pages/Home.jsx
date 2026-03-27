@@ -126,27 +126,22 @@ const Home = () => {
 
           <div className="intro-text-block">
             <p className="hey-iam-text">Hey, I am</p>
-            <div className="typewriter-container">
-            <TypeAnimation
-              sequence={[
-                'M Ahmad Hasham',
-                2500,
-                'Full Stack Web Engineer',
-                2000,
-                'AI & ML Innovator',
-                2000,
-              ]}
-              wrapper="h1"
-              speed={50}
-              repeat={Infinity}
-              className="hero-title-inspired"
-            />
+            <h1 className="hero-title-inspired" style={{ margin: 0, padding: 0 }}>M Ahmad Hasham</h1>
+            <div className="typewriter-container" style={{ minHeight: '60px', marginTop: '0.5rem' }}>
+              <TypeAnimation
+                sequence={[
+                  'Full Stack Web Engineer',
+                  2000,
+                  'AI & ML Innovator',
+                  2000,
+                ]}
+                wrapper="h2"
+                speed={50}
+                repeat={Infinity}
+                style={{ fontSize: '2rem', color: '#94a3b8', fontWeight: 400, display: 'inline-block' }}
+              />
             </div>
           </div>
-
-          <h2 style={{ fontSize: '1.8rem', color: '#94a3b8', fontWeight: 400, marginBottom: '2rem' }}>
-            Full Stack Web Engineer
-          </h2>
 
           <div className="social-pills">
             <a href="https://github.com/hasham14fw" target="_blank" rel="noopener noreferrer" className="social-pill"><i className="devicon-github-original"></i> GitHub</a>
