@@ -127,7 +127,7 @@ const Home = () => {
           <div className="intro-text-block">
             <p className="hey-iam-text">Hey, I am</p>
             <h1 className="hero-title-inspired" style={{ margin: 0, padding: 0 }}>M Ahmad Hasham</h1>
-            <div className="typewriter-container" style={{ minHeight: '80px', marginTop: '0.8rem', display: 'flex', alignItems: 'center' }}>
+            <div className="typewriter-container" style={{ minHeight: '60px', marginTop: '0.2rem', display: 'flex', alignItems: 'center' }}>
               <span style={{ fontSize: '2.2rem', fontWeight: 700, letterSpacing: '-0.5px' }}>
                 <TypeAnimation
                   sequence={[

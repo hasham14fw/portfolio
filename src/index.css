@@ -364,6 +364,8 @@ a {
   object-fit: cover;
   border: 3px solid rgba(59, 130, 246, 0.5); /* Accent lining on image */
   box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+  image-rendering: -webkit-optimize-contrast; /* Sharpness for high-res images */
+  transform: translateZ(0); /* Hardware acceleration */
 }
 
 .language-pill {
@@ -404,7 +406,7 @@ a {
 }
 
 .hero-title-inspired {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.1;
   background: linear-gradient(135deg, #ffffff 0%, #3b82f6 50%, #8b5cf6 100%);
