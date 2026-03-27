@@ -101,7 +101,7 @@ const Home = () => {
             transition={{ duration: 1, type: 'spring', bounce: 0.4 }}
             className="profile-pic-wrapper"
           >
-            <img src="/Profile%20Photo.jpg" alt="M Ahmad Hasham" className="rounded-avatar" />
+            <img src="/Profile Photo.JPG" alt="M Ahmad Hasham" className="rounded-avatar" />
           </motion.div>
 
           <div style={{ marginTop: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px', color: '#e2e8f0', fontWeight: '500' }}>
