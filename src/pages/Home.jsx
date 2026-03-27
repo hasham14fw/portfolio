@@ -34,7 +34,7 @@ const skillCategories = [
       { name: 'Node.js', icon: 'devicon-nodejs-plain colored' },
       { name: 'Express', icon: 'devicon-express-original' },
       { name: '.NET 9.0', icon: 'devicon-dotnetcore-plain colored' },
-      { name: 'iTextSharp', icon: 'devicon-visualstudio-plain colored' },
+      { name: 'Flask', icon: 'devicon-flask-original colored' },
       { name: 'Twilio API', icon: 'devicon-slack-plain colored' },
       { name: 'Crow C++', icon: 'devicon-cplusplus-plain colored' },
       { name: 'MongoDB', icon: 'devicon-mongodb-plain colored' },
