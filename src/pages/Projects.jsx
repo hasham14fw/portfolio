@@ -49,6 +49,16 @@ const projects = [
     sourceLink: 'https://github.com/hasham14fw/AIPS-Management-System-Desktop-Application',
     isDesktop: true,
     alertMsg: 'This is a desktop application. To explore the source or run it locally, please clone the repository from GitHub. A detailed manual is included in the repo for setup.'
+  },
+  {
+    id: 6,
+    title: 'Master Solar - Inventory & Accounts Management',
+    desc: 'A specialized C# .NET WinForms application for solar businesses. This comprehensive system features a FIFO-based inventory tracking engine, smart billing with thermal receipt printing, real-time customer account management, and automated recovery tracking.',
+    img: '/master_solar.png',
+    tags: ['C#', '.NET', 'WinForms', 'MySQL', 'FIFO', 'Inventory Management'],
+    sourceLink: 'https://github.com/hasham14fw/Inventory-and-Accounts-Management-C-.NET-MySQL-Winform',
+    isDesktop: true,
+    alertMsg: 'This is a specialized desktop application for solar businesses. To explore the source or run it locally, please clone the repository from GitHub. A detailed setup manual is included in the repo.'
   }
 ];
 
