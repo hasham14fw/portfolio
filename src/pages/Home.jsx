@@ -42,17 +42,7 @@ const skillCategories = [
       { name: 'Postman', icon: 'devicon-postman-plain colored' },
     ]
   },
-  {
-    title: 'Core Logic & DSA',
-    skills: [
-      { name: 'Graphs', icon: 'devicon-network-plain colored' },
-      { name: 'Trie Trees', icon: 'devicon-search-plain colored' },
-      { name: 'Heaps/BST', icon: 'devicon-appwrite-plain colored' },
-      { name: 'Optimization', icon: 'devicon-fastapi-plain colored' },
-      { name: 'Dijkstra', icon: 'devicon-googlecloud-plain colored' },
-      { name: 'Data Logic', icon: 'devicon-visualstudio-plain colored' },
-    ]
-  },
+
   {
     title: 'Artificial Intelligence',
     skills: [
