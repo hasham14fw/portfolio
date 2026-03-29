@@ -35,7 +35,7 @@ const Navigation = () => {
           <span>Islamabad, Pakistan</span>
         </div>
         <div className="time-info">
-          <Clock size={16} />
+          <Clock size={16} className="accent-icon" />
           <span>{timeString}</span>
         </div>
       </div>
