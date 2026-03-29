@@ -35,7 +35,6 @@ const skillCategories = [
       { name: 'Express', icon: 'devicon-express-original' },
       { name: '.NET 9.0', icon: 'devicon-dotnetcore-plain colored' },
       { name: 'Flask', icon: 'devicon-flask-original colored' },
-      { name: 'Twilio API', icon: 'devicon-slack-plain colored' },
       { name: 'Crow C++', icon: 'devicon-cplusplus-plain colored' },
       { name: 'MongoDB', icon: 'devicon-mongodb-plain colored' },
       { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
@@ -54,6 +53,15 @@ const skillCategories = [
       { name: 'Scikit-Learn', icon: 'devicon-python-plain colored' },
       { name: 'Neural Networks', icon: 'devicon-pytorch-original colored' },
       { name: 'Anaconda', icon: 'devicon-anaconda-original colored' },
+    ]
+  },
+  {
+    title: 'Cloud & API Integrations',
+    skills: [
+      { name: 'Gemini AI', icon: 'devicon-google-plain colored' },
+      { name: 'Google Maps API', icon: 'devicon-google-plain colored' },
+      { name: 'OpenWeather API', icon: 'devicon-meteor-plain colored' },
+      { name: 'Twilio', icon: 'devicon-slack-plain colored' },
     ]
   },
   {
