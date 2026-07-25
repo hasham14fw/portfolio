@@ -13,6 +13,15 @@ const projects = [
     sourceLink: 'https://github.com/hasham14fw/AIPS-'
   },
   {
+    id: 10,
+    title: 'FloodSense AI',
+    desc: 'Flood risk prediction models (Python, XGBoost, AdaBoost, Random Forest, Logistic Regression, Leaflet maps) with an intelligent AI agent to manage Rescue teams and map optimal routes towards shelters.',
+    img: '/floodsense_ai.png',
+    tags: ['Python', 'XGBoost', 'AdaBoost', 'Random Forest', 'Logistic Regression', 'Leaflet', 'AI Agent'],
+    demoLink: 'https://flood-risk-prediction-ai-management-agent.onrender.com/',
+    sourceLink: 'https://github.com/hasham14fw/Flood-Risk-Prediction---AI-Management-Agent'
+  },
+  {
     id: 2,
     title: 'AI - Fake News Verifier',
     desc: 'An AI-powered application combating misinformation via OCR and Machine Learning. It extracts text from uploaded images and cross-references claims against trusted global databases to generate an evaluated verification report.',
@@ -91,7 +100,7 @@ const Projects = () => {
       transition={{ duration: 0.5 }}
       style={{ width: '100%', position: 'relative' }}
     >
-      <div style={{ textAlign: 'center', marginBottom: '0.5rem' }}>
+      <div style={{ textAlign: 'center', marginBottom: '0.5rem', marginTop: '4rem' }}>
         <h1 className="hero-title" style={{ fontSize: '3rem' }}>
           Development <span className="heading-accent">Showcase</span>
         </h1>

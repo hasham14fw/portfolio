@@ -59,7 +59,7 @@ const Contact = () => {
       transition={{ duration: 0.8 }}
       style={{ justifyContent: 'center', width: '100%', alignItems: 'center' }}
     >
-      <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+      <div style={{ textAlign: 'center', marginBottom: '2rem', marginTop: '4rem' }}>
         <motion.h1 
           className="hero-title" 
           style={{ fontSize: '4rem', fontWeight: 900, marginBottom: '0.5rem' }}
