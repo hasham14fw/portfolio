@@ -1,8 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MessageCircle, MapPin } from 'lucide-react';
+import { Mail, MessageCircle, MapPin, Send } from 'lucide-react';
 
 const Contact = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    // IMPORTANT: Replace with your actual Web3Forms Access Key
+    formData.append("access_key", "c294cfc2-7dff-42c0-aca0-8e47f07f56ce");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Message sent successfully!");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   const containerVars = {
     hidden: { opacity: 0 },
     show: {
@@ -44,6 +70,35 @@ const Contact = () => {
           Feel free to reach out for collaborations or just a friendly chat
         </motion.p>
       </div>
+
+      <div className="contact-content-wrapper">
+      {/* Contact Form */}
+      <motion.div 
+        className="contact-form-container glass-panel"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+      >
+        <h2 className="form-title">Send me a message</h2>
+        <form onSubmit={onSubmit} className="contact-form">
+          <div className="form-group">
+            <label htmlFor="name">Your Name</label>
+            <input type="text" id="name" name="name" required placeholder="Full Name" className="form-input" />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">Your Email</label>
+            <input type="email" id="email" name="email" required placeholder="Email Address" className="form-input" />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea id="message" name="message" required rows="5" placeholder="Write Your Message..." className="form-input"></textarea>
+          </div>
+          <button type="submit" className="btn-primary form-submit-btn">
+            Send Message <Send size={18} />
+          </button>
+        </form>
+        {result && <span className="form-result-message">{result}</span>}
+      </motion.div>
 
       <motion.div 
         className="contact-cards-grid"
@@ -109,6 +164,7 @@ const Contact = () => {
           <p className="contact-card-value">@hasham14fw</p>
         </motion.a>
       </motion.div>
+      </div>
       
       <motion.div 
         style={{ marginTop: '4rem', display: 'flex', alignItems: 'center', gap: '10px', color: '#94a3b8', fontSize: '1.1rem' }}
