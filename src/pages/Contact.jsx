@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MessageCircle, MapPin, Send } from 'lucide-react';
+import { Mail, MessageCircle, MapPin, Send, Loader2, CheckCircle } from 'lucide-react';
 
 const Contact = () => {
   const [result, setResult] = useState("");
+  const [status, setStatus] = useState("idle");
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setStatus("loading");
+    setResult("");
     const formData = new FormData(event.target);
 
     // IMPORTANT: Replace with your actual Web3Forms Access Key
@@ -21,9 +23,15 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
+      setStatus("success");
       setResult("Message sent successfully!");
       event.target.reset();
+      setTimeout(() => {
+        setStatus("idle");
+        setResult("");
+      }, 5000);
     } else {
+      setStatus("error");
       console.log("Error", data);
       setResult(data.message);
     }
@@ -93,11 +101,14 @@ const Contact = () => {
             <label htmlFor="message">Message</label>
             <textarea id="message" name="message" required rows="5" placeholder="Write Your Message..." className="form-input"></textarea>
           </div>
-          <button type="submit" className="btn-primary form-submit-btn">
-            Send Message <Send size={18} />
+          <button type="submit" className="btn-primary form-submit-btn" disabled={status === 'loading'}>
+            {status === 'idle' && <>Send Message <Send size={18} /></>}
+            {status === 'loading' && <>Sending... <Loader2 size={18} className="spin-animation" /></>}
+            {status === 'success' && <>Sent <CheckCircle size={18} /></>}
+            {status === 'error' && <>Try Again <Send size={18} /></>}
           </button>
         </form>
-        {result && <span className="form-result-message">{result}</span>}
+        {result && status !== 'success' && <span className="form-result-message">{result}</span>}
       </motion.div>
 
       <motion.div 

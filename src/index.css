@@ -905,8 +905,8 @@ a {
 
 .form-submit-btn {
   margin-top: 0.5rem;
-  justify-content: center;
-  width: 100%;
+  align-self: flex-start;
+  width: fit-content;
 }
 
 .form-result-message {
@@ -925,4 +925,18 @@ a {
   .contact-cards-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Spinner Animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-animation {
+  animation: spin 1s linear infinite;
 }
