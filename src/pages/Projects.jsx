@@ -17,9 +17,19 @@ const projects = [
     title: 'FloodSense AI',
     desc: 'Flood risk prediction models (Python, XGBoost, AdaBoost, Random Forest, Logistic Regression, Leaflet maps) with an intelligent AI agent to manage Rescue teams and map optimal routes towards shelters.',
     img: '/floodsense_ai.png',
-    tags: ['Python', 'XGBoost', 'AdaBoost', 'Random Forest', 'Logistic Regression', 'Leaflet', 'AI Agent'],
+    tags: ['XGBoost', 'AdaBoost', 'Random Forest', 'Logistic Regression', 'Leaflet', 'AI Agent'],
     demoLink: 'https://flood-risk-prediction-ai-management-agent.onrender.com/',
     sourceLink: 'https://github.com/hasham14fw/Flood-Risk-Prediction---AI-Management-Agent'
+  },
+  {
+    id: 11,
+    title: 'RAGTIME1',
+    desc: 'A multilingual, retrieval-augmented framework pulling cross-lingual evidence into a unified context. Generates citation-grounded, report-style answers while eliminating hallucinations using strict attribution and auto-nuggetization.',
+    img: '/ragtime1_ai.png',
+    tags: ['OpenAI', 'tiktoken', 'BAAI BGE-M3', 'FAISS', 'BGE-Reranker-Large', 'LLM'],
+    sourceLink: 'https://github.com/hasham14fw/RAGTIME1',
+    isDesktop: true,
+    alertMsg: 'This project is not deployed online due to the high hosting costs of the large language models required. Please view the GitHub repository to review the codebase or run it locally.'
   },
   {
     id: 2,

@@ -62,7 +62,7 @@ const Contact = () => {
       <div style={{ textAlign: 'center', marginBottom: '2rem', marginTop: '4rem' }}>
         <motion.h1 
           className="hero-title" 
-          style={{ fontSize: '4rem', fontWeight: 900, marginBottom: '0.5rem' }}
+          style={{ fontSize: '3.2rem', fontWeight: 900, marginBottom: '0.5rem' }}
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
@@ -71,6 +71,7 @@ const Contact = () => {
         </motion.h1>
         <motion.p 
           className="hero-subtitle"
+          style={{ fontSize: '1.1rem' }}
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.1 }}
